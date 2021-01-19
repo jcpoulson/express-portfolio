@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Flask Learning Journal",
+            "description": "A blog like application, for learning notes that was built using Python and Flask",
+            "technologies": ["HTML", "CSS", "Python", "Flask"],
+            "live_link": "https://english-for-life.herokuapp.com/",
+            "github_link": "https://github.com/jcpoulson/flask_learning_journal",
+            "image_urls": ["static/img/flask-learning-journal-thumbnail.png", "static/img/flask-learning-journal-1.png", "static/img/flask-learning-journal-2.png", "static/img/flask-learning-journal-3.png"]
+        },
+
+        {
+            "id": 1,
+            "project_name": "Full Stack Conference Form",
+            "description": "An Interactive form that uses JavScript to dynamically update the page and uses Regex for client-side form validation",
+            "technologies": ["HTML", "CSS", "JavaScript", "Regex"],
+            "live_link": "https://jcpoulson.github.io/regex-form/",
+            "github_link": "https://github.com/jcpoulson/regex-form",
+            "image_urls": ["static/img/regex-form-thumbnail.png", "static/img/regex-form-1.png", "static/img/regex-form-2.png", "static/img/regex-form-3.png"]
+
+        },
+
+        {
+            "id": 2,
+            "project_name": "Dynamic Student Directory",
+            "description": "A Student directory that uses JavaScript to filter and organize data along with add user interactivity such as page navigation and a search bar feature",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jcpoulson.github.io/data-pagination-filtering/",
+            "github_link": "https://github.com/jcpoulson/data-pagination-filtering",
+            "image_urls": ["static/img/data-pagination-thumbnail.png", "static/img/data-pagination-1.png", "static/img/data-pagination-2.png", "static/img/data-pagination-3.png"]
+        },
+
+        {
+            "id": 3,
+            "project_name": "Korean Study App",
+            "description": "An app that functions much like a flash card app to study Korean but with much more interactivity using photos, animations and testing options",
+            "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "Anime.js", "Python"],
+            "live_link": "https://korean-language-trainer-v2.herokuapp.com/",
+            "github_link": "https://github.com/jcpoulson/korean_language_trainer",
+            "image_urls": ["static/img/klt-thumbnail.png", "static/img/klt-1.png", "static/img/klt-2.png", "static/img/klt-3.png"]
+        },
+
+        {
+            "id": 4,
+            "project_name": "FEWD Tech Degree Portfolio",
+            "description": "The Final Project for the FEWD Tech degree that showcases my skills as a Front-End Developer ",
+            "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+            "live_link": "https://jcpoulson.github.io/",
+            "github_link": "https://github.com/jcpoulson/jcpoulson.github.io",
+            "image_urls": ["static/img/bootstrap-portfolio-thumbnail.png", "static/img/bootstrap-portfolio-1.png", "static/img/bootstrap-portfolio-2.png", "static/img/bootstrap-portfolio-3.png"]
+        }
+    ]
+}

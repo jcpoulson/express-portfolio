@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+
+       
+      h1 Projects
+
+      
+      p.lead.text-light
+        | Here are some of the projects that I have worked on, The technologies used vary across the board from Front-end technologies such as HTML and Bootstrap all the way to Back-end/Database technologies such as Python and Flask
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      
+      
+      each project in userData
+        .cell
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`)#thumbnail-project
+            h3.project-title= project.project_name
